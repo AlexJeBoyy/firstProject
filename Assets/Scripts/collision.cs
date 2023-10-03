@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ball : MonoBehaviour
+public class collision : MonoBehaviour
 {
-   
     public float xPos = 0f;
     public float yPos = 0f;
     public float xSpeed = 1.0f;
@@ -25,5 +24,19 @@ public class ball : MonoBehaviour
         yPos += ySpeed * Time.deltaTime;
         transform.position = new Vector3(xPos, yPos, 0f);
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Auw!");
+        if (collision.gameObject.CompareTag("horizontalWall"))
+        {
+            Debug.Log("auw my hat or my feet");
+            ySpeed = ySpeed * -1f;
+        }else if (collision.gameObject.CompareTag("verticalWall"))
+        {
+            Debug.Log("auw! my but or my crotch");
+            xSpeed = xSpeed * -1f;
+        }
     }
 }
