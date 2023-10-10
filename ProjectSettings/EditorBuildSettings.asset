@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ball.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/pongSinglePlayer.unity
+    guid: 9a7b962999ca56d4dbfbc5f83080dbe5
+  - enabled: 1
+    path: Assets/Scenes/LeftPlayerWon.unity
+    guid: 0c1fa25f983ccca4a86fbd24ddc48124
+  - enabled: 1
+    path: Assets/Scenes/RightPlayerWon.unity
+    guid: 97a665fc6ebd22d4ca17333b0762eefd
   m_configObjects: {}
