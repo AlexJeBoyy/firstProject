@@ -13,6 +13,8 @@ public class collision : MonoBehaviour
     public float yPos = 0f;
     public float xSpeed = 3.0f;
     public float ySpeed = 3.0f;
+    public float ogySpeed;
+    public float ogxSpeed;
 
     
 
@@ -20,6 +22,8 @@ public class collision : MonoBehaviour
     void Start()
     {
         transform.position = new Vector3(xPos, yPos, 0f);
+        ogxSpeed = xSpeed;
+        ogySpeed = ySpeed;
     }
 
     // Update is called once per frame
@@ -55,14 +59,14 @@ public class collision : MonoBehaviour
         if (collision.gameObject.name == "verticalWallR")
         {
             Vector3 newPosition = new Vector3(xPos + yPos, transform.position.y, transform.position.z);
-            xSpeed = -3f;
-            ySpeed = -3f;
+            xSpeed = -ogxSpeed;
+            ySpeed = -ogySpeed;
         }
-        else if (collision.gameObject.name == "verticalWallR")
+        else if (collision.gameObject.name == "verticalWallL")
         {
             Vector3 newPosition = new Vector3(xPos + yPos, transform.position.y, transform.position.z);
-            xSpeed = 3f;
-            ySpeed = 3f;
+            xSpeed = ogxSpeed;
+            ySpeed = ogySpeed;
         }
     }
 }

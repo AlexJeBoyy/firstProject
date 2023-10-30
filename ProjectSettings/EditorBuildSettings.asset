@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/pongSinglePlayer.unity
+    path: Assets/Scenes/Menu.unity
+    guid: 37376c765251af64db58bfca9592ede5
+  - enabled: 1
+    path: Assets/Scenes/pongMultiPlayer.unity
     guid: 9a7b962999ca56d4dbfbc5f83080dbe5
+  - enabled: 1
+    path: Assets/Scenes/PongSinglePlayer.unity
+    guid: fac4aa22d3248d0418fb22de854f30b4
+  - enabled: 1
+    path: Assets/Scenes/PongBreakout.unity
+    guid: b978bf4169b5e77489bcc7fbb56b05e1
   - enabled: 1
     path: Assets/Scenes/LeftPlayerWon.unity
     guid: 0c1fa25f983ccca4a86fbd24ddc48124
