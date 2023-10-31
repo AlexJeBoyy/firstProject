@@ -8,6 +8,7 @@ TagManager:
   - verticalWall
   - pongBall
   - Ball
+  - DeadZone
   layers:
   - Default
   - TransparentFX

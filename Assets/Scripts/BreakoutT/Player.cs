@@ -14,6 +14,13 @@ public class Player : MonoBehaviour
 
     private Vector2 direction;
 
+    Vector2 startPosition;
+
+
+    private void Start()
+    {
+        startPosition = transform.position;
+    }
     void Update()
     {
         inputValue = Input.GetAxisRaw("Horizontal");
@@ -34,4 +41,10 @@ public class Player : MonoBehaviour
         ribidBody2D.AddForce(direction * moveSpeed * Time.deltaTime * 100);
 
     }
+    public void ResetPlayer()
+    {
+        transform.position = startPosition;
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+    }
+
 }
