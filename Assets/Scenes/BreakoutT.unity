@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (1)
@@ -192,73 +196,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &120655803 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1470497972}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &120655804
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120655803}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &120655807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 1470497972}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &176203191 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1649423267}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &176203192
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176203191}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &176203195 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -520,6 +462,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (28)
@@ -618,109 +564,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 1112880055}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &245313591 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1148140845}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &245313592
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 245313591}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &245313595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 1148140845}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &247070916 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 2031555558}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &247070917
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 247070916}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &247070920 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 2031555558}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &300982705 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 676183617}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &300982706
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300982705}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &300982709 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -733,6 +586,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (21)
@@ -795,37 +652,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &419635420 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1289451779}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &419635421
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419635420}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &419635424 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -838,6 +664,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (13)
@@ -907,6 +737,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick
@@ -969,37 +807,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &469283129 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1737885131}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &469283130
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 469283129}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &469283133 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -1012,6 +819,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (16)
@@ -1074,37 +885,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &568516531 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1511047384}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &568516532
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568516531}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &568516535 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -1117,6 +897,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (8)
@@ -1270,6 +1054,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (3)
@@ -1339,6 +1127,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (17)
@@ -1408,6 +1200,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (18)
@@ -1581,73 +1377,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &665787610 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1507465033}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &665787611
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665787610}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &665787614 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 1507465033}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &671304459 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1288202693}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &671304460
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671304459}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &671304463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -1660,6 +1394,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (5)
@@ -1722,109 +1460,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &689777755 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1664370234}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &689777756
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 689777755}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &689777759 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 1664370234}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &790207946 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 646642856}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &790207947
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 790207946}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &790207950 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 646642856}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &798776613 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 823036139}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &798776614
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 798776613}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &798776617 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -1837,6 +1482,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (29)
@@ -1899,73 +1548,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &839202053 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 481322669}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &839202054
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839202053}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &839202057 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 481322669}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &965893890 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 635244933}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &965893891
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965893890}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &965893894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -1978,6 +1565,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (23)
@@ -2040,73 +1631,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &1060737785 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1672576180}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1060737786
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060737785}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1060737789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 1672576180}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1075171198 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 35654462}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1075171199
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075171198}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1075171202 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -2119,6 +1648,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (24)
@@ -2188,6 +1721,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (25)
@@ -2257,6 +1794,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (2)
@@ -2319,73 +1860,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &1250496269 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 313169787}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1250496270
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250496269}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1250496273 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 313169787}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1251622440 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1877259886}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1251622441
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251622440}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1251622444 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -2509,6 +1988,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (4)
@@ -2578,6 +2061,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (26)
@@ -2640,109 +2127,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &1370260485 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1895703506}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1370260486
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370260485}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1370260489 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 1895703506}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1425801593 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1197083170}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1425801594
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1425801593}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1425801597 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 1197083170}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1429098782 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 465270600}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1429098783
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429098782}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1429098786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -2755,6 +2149,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (20)
@@ -2817,37 +2215,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &1484116116 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 213211653}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1484116117
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484116116}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1484116120 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -2860,6 +2227,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (15)
@@ -2929,6 +2300,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (14)
@@ -2991,37 +2366,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &1541323432 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 620030004}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1541323433
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541323432}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1541323436 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -3034,6 +2378,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (12)
@@ -3096,73 +2444,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &1633354294 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 586732334}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1633354295
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1633354294}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1633354298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
   m_PrefabInstance: {fileID: 586732334}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1641895975 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 458510366}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1641895976
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641895975}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1641895979 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -3175,6 +2461,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (6)
@@ -3244,6 +2534,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (22)
@@ -3306,37 +2600,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &1672401464 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1560479114}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1672401465
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672401464}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1672401468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -3349,6 +2612,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (7)
@@ -3418,6 +2685,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (27)
@@ -3591,37 +2862,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1819100377 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 988227014}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1819100378
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819100377}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1819100381 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -3782,6 +3022,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (9)
@@ -3851,6 +3095,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (10)
@@ -3920,6 +3168,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (19)
@@ -3982,37 +3234,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
---- !u!1 &1907785833 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
-  m_PrefabInstance: {fileID: 1902448111}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1907785834
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907785833}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1907785837 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6721248551646824546, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
@@ -4060,6 +3281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2124510930}
     m_Modifications:
+    - target: {fileID: 449788232008399985, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352130703774391064, guid: f9f5bb45ed2b86d48a34122f564d418c, type: 3}
       propertyPath: m_Name
       value: Brick (11)
@@ -4131,7 +3356,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2124510930}
-  - component: {fileID: 2124510931}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -4184,29 +3408,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2124510931
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124510929}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
