@@ -17,5 +17,8 @@ public class StartGame : MonoBehaviour
     {
         SceneManager.LoadScene("BreakoutT");
     }
-
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }

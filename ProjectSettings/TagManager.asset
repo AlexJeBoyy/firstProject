@@ -7,6 +7,7 @@ TagManager:
   - horizontalWall
   - verticalWall
   - pongBall
+  - Ball
   layers:
   - Default
   - TransparentFX
