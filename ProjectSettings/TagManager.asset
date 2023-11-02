@@ -9,6 +9,7 @@ TagManager:
   - pongBall
   - Ball
   - DeadZone
+  - Brick
   layers:
   - Default
   - TransparentFX

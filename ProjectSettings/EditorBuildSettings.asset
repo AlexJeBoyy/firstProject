@@ -15,18 +15,21 @@ EditorBuildSettings:
     path: Assets/Scenes/PongSinglePlayer.unity
     guid: fac4aa22d3248d0418fb22de854f30b4
   - enabled: 1
-    path: Assets/Scenes/PongBreakout.unity
-    guid: b978bf4169b5e77489bcc7fbb56b05e1
-  - enabled: 1
     path: Assets/Scenes/LeftPlayerWon.unity
     guid: 0c1fa25f983ccca4a86fbd24ddc48124
   - enabled: 1
     path: Assets/Scenes/RightPlayerWon.unity
     guid: 97a665fc6ebd22d4ca17333b0762eefd
   - enabled: 1
-    path: Assets/Scenes/BreakoutT.unity
+    path: Assets/Scenes/BOlvl1.unity
     guid: f731df89a4343bb4aaa30e0a5a0c8e99
+  - enabled: 1
+    path: Assets/Scenes/BOlvl2.unity
+    guid: 203fc2dce4bf88f4e972eee1164d1c7c
   - enabled: 1
     path: Assets/Scenes/BLose.unity
     guid: d493bc6d882e7cb49a938bbd9f227fa4
+  - enabled: 1
+    path: Assets/Scenes/BWon.unity
+    guid: e861cae68073d4848b40d8cad19c3ae9
   m_configObjects: {}

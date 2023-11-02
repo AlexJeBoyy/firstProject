@@ -12,8 +12,8 @@ public class ScoreManager : MonoBehaviour
     public Text scoreTextL;
 
 
-    int scoreR = 5;
-    int scoreL = 5;
+    public int scoreR = 5;
+    public int scoreL = 5;
     public int winScore = 0;
 
 

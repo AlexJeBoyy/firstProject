@@ -23,16 +23,27 @@ public class BallBreak : MonoBehaviour
         if (collision.gameObject.CompareTag("DeadZone"))
         {
             FindObjectOfType<GameManager>().LosseHealth();
+
+        }
+
+        if (collision.gameObject.CompareTag("Brick"))
+        {
+            
+            rigidbody2D.velocity = Vector2.zero;
+            velocity.x = Random.Range(1f, 1.5f);
+            velocity.y = Random.Range(1f, 1.5f);
+            rigidbody2D.AddForce(velocity * speed);
+            Debug.Log("UWU");
         }
     }
-
+   
     public void ResetBall()
     {
         transform.position = startPosition;
         rigidbody2D.velocity =Vector2.zero;
         
-        velocity.x = Random.Range(-1f, 1f);
-        velocity.y = 1;
+        velocity.x = Random.Range(-2f, 2f);
+        velocity.y = Random.Range(1f, 2f);
         rigidbody2D.AddForce(velocity * speed);
     }
 }

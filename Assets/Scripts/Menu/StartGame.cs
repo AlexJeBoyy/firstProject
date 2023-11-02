@@ -13,9 +13,13 @@ public class StartGame : MonoBehaviour
     {
         SceneManager.LoadScene("PongSinglePlayer");
     }
-    public void LoadBreakout()
+    public void LoadBreakoutlvl1()
     {
-        SceneManager.LoadScene("BreakoutT");
+        SceneManager.LoadScene("BOlvl1");
+    }
+    public void LoadBreakoutlvl2()
+    {
+        SceneManager.LoadScene("BOlvl2");
     }
     public void LoadMenu()
     {
