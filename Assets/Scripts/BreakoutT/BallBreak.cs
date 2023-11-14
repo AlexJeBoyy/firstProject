@@ -12,6 +12,8 @@ public class BallBreak : MonoBehaviour
 
     Vector2 startPosition;
 
+
+
     void Start()
     {
         startPosition = transform.position;
